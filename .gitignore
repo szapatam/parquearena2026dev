@@ -1,0 +1,10 @@
+# Local hosting metadata and packaged exports
+.openai/
+*.tar.gz
+
+# Local files
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
