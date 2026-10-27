@@ -14,3 +14,14 @@ El sitio es estático y no necesita instalación ni compilación. Para ver la la
 Al configurar un servicio de hosting para la landing principal, usar `main-site` como directorio de publicación y dejar vacío el comando de compilación.
 
 Algunas fotografías, fuentes y videos se cargan desde servicios externos y requieren conexión a Internet.
+
+## Netlify
+
+El archivo `netlify.toml` configura la publicación de `main-site/` sin compilación.
+Vincular este repositorio y seleccionar la rama `main`. Si se configura manualmente:
+
+- Base directory: raíz del repositorio (`.`).
+- Build command: vacío.
+- Publish directory: `main-site`.
+
+Después de cambiar la configuración, iniciar un nuevo deploy desde Netlify.
